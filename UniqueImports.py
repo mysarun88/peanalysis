@@ -27,7 +27,7 @@ for f in fileList:
 	except AttributeError:
 		print f + "has some problems or does not have imports"
 		noOfFiles = noOfFiles - 1	
-print "Files processed" + totFiles + " Files not processed" + totFiles-noOFFiles
+print "Files processed" + str(totFiles) + " Files not processed" + str(totFiles-noOfFiles)
 if noOfFiles > 0:
 	print "==========================="
 	print "Common dll's in all files"
